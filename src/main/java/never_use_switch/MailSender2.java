@@ -26,7 +26,6 @@ public class MailSender2 {
         String html = mailGenerator.generateHtml(mailInfo);
         send(html,mailInfo);
 
-
     }
 
     private void send(String html, MailInfo mailInfo) {

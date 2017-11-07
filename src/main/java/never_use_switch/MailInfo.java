@@ -14,4 +14,12 @@ public class MailInfo {
     public MailInfo(int mailCode) {
         this.mailCode = mailCode;
     }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public int getMailCode() {
+        return mailCode;
+    }
 }

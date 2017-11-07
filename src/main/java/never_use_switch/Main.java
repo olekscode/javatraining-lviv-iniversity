@@ -7,7 +7,7 @@ import org.fluttercode.datafactory.impl.DataFactory;
 @Slf4j
 public class Main {
     @SneakyThrows
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         MailSender2 mailSender = new MailSender2();
         DataFactory dataFactory = new DataFactory();
 

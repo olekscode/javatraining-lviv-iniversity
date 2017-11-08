@@ -5,7 +5,7 @@ public class HttpService {
         HttpStatus httpCode = HttpStatus.findByHttpCode(code);
 
         switch (httpCode) {
-            case INFO:
+            case INFORMATIONAL:
                 //40 lines of handling code here
                 break;
             case SUCCESS:
